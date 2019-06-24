@@ -8,7 +8,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryOpenEvent;
 
 public class InventoryEvent implements Listener {
-    private AntiToggleSneak main;
+    private AntiToggleSneak main = AntiToggleSneak.getInstance();
     public InventoryEvent(AntiToggleSneak main) {this.main = main;}
 
     @EventHandler

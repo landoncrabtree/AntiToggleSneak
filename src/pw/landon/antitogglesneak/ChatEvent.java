@@ -8,7 +8,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
 
 public class ChatEvent implements Listener {
-    private AntiToggleSneak main;
+    private AntiToggleSneak main = AntiToggleSneak.getInstance();
     public ChatEvent(AntiToggleSneak main) {this.main = main;}
 
     @EventHandler
