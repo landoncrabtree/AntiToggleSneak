@@ -1,0 +1,13 @@
+# Options: silent / kick / ban
+# silent - Cancel the event
+# kick - Kick the player
+# ban - Ban the player
+# verbal - Send a message & cancel the event.
+mode: "silent"
+
+# Commands to be ran via Console if mode is kick or ban.
+kick: "kick %player% ToggleSneak -s"
+ban: "ban %player% ToggleSneak -s"
+
+# Message to be sent if mode is verbal.
+verbal: "&cToggle Sneak is not allowed. Your action has been cancelled."
